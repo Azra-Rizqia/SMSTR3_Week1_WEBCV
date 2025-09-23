@@ -1,0 +1,153 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #f2f2f2;
+  color: #30353D;
+  line-height: 1.6;
+}
+
+.cv-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Kolom Kiri */
+.left-column {
+  width: 35%;
+  background: #f7f7f7;
+  padding: 30px;
+  border-right: 1px solid #ddd;
+}
+
+.profile-pic img {
+  width: 180px;           /* atur ukuran foto */
+  height: 180px;          /* biar lingkarannya proporsional */
+  object-fit: cover;      /* crop biar isi foto pas */
+  border-radius: 50%;     /* bikin lingkaran */
+  display: block;
+  margin: 0 auto 15px; 
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #30353D;
+  text-align: center;
+}
+
+.left-column h2 {
+  font-size: 16px;
+  margin: 20px 0 10px;
+  color: #5C6168;
+  border-bottom: 2px solid #5C6168;
+  display: inline-block;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.left-column h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.left-column ul {
+  list-style: disc inside;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+/* Kolom Kanan */
+.right-column {
+  width: 65%;
+  padding: 30px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #5C6168;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.right-column h2 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+  color: #5C6168;
+  border-bottom: 2px solid #5C6168;
+  display: inline-block;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.right-column ul {
+  margin: 10px 0 20px 20px;
+}
+
+.right-column ul li {
+  margin-bottom: 8px;
+}
+
+/* Bagian Pengalaman & Prestasi */
+.experience, .achievements {
+  margin-bottom: 30px;
+}
+
+.exp-item, .ach-item {
+  margin-bottom: 20px;
+}
+
+.exp-header, .ach-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exp-header h3, .ach-header h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+
+.exp-header .year, .ach-header .year {
+  font-size: 14px;
+  color: #666;
+}
+
+.company {
+  font-size: 14px;
+  color: #555;
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+  color: #444;
+  margin-top: 5px;
+  line-height: 1.5;
+}
