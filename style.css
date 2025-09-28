@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -31,10 +30,10 @@ body {
 }
 
 .profile-pic img {
-  width: 180px;           /* atur ukuran foto */
-  height: 180px;          /* biar lingkarannya proporsional */
-  object-fit: cover;      /* crop biar isi foto pas */
-  border-radius: 50%;     /* bikin lingkaran */
+  width: 180px;          
+  height: 180px;         
+  object-fit: cover;
+  border-radius: 50%;
   display: block;
   margin: 0 auto 15px; 
 }
